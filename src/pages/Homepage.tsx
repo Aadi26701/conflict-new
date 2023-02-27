@@ -20,9 +20,9 @@ const Homepage: FunctionComponent = () => {
           <div className={styles.title}>
             <div
               className={styles.heroTagline}
-            >{`Let’s locofy & travel the locofied world`}</div>
+            >{`Let’s locofy & travel the github world`}</div>
             <div className={styles.heroSubtext}>
-              Find the best locofied destinations and the most locofy stays!
+              Find the best github destinations and the most locofy stays!
             </div>
           </div>
           <div className={styles.searchForm}>
