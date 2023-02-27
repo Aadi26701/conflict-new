@@ -1,50 +1,56 @@
+
 .heroSubtext,
 .heroTagline {
-  align-self: stretch;
-  position: relative;
-  line-height: 67px;
+align-self: stretch;
+position: relative;
+line-height: 67px;
 }
 .heroSubtext {
-  font-size: 24px;
-  line-height: 32px;
-  font-family: var(--font-roboto);
+align-self: stretch;
+position: relative;
+font-size: var(--font-size-base);
+line-height: 32px;
+font-family: var(--font-roboto);
 }
 .title {
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  gap: var(--gap-md);
+align-self: stretch;
+position: relative;
+line-height: 67px;
 }
 .searchFormLabel {
-  flex: 1;
-  position: relative;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
+flex: 1;
+position: relative;
+letter-spacing: 0.04em;
+text-transform: uppercase;
 }
 .radiobuttonuncheckedIcon {
-  position: relative;
-  width: 20px;
-  height: 20px;
-  flex-shrink: 0;
-  overflow: hidden;
+position: relative;
+width: 20px;
+height: 20px;
+flex-shrink: 0;
+overflow: hidden;
 }
 .padding {
-  border-radius: var(--br-md);
-  display: flex;
-  flex-direction: row;
-  padding: var(--padding-sm);
-  align-items: center;
-  justify-content: flex-start;
+border-radius: var(--br-lg);
+display: flex;
+flex-direction: row;
+padding: var(--padding-xs);
+align-items: center;
+justify-content: flex-start;
 }
 .label {
-  position: relative;
-  letter-spacing: 0.15px;
-  line-height: 150%;
+position: relative;
+width: 20px;
+height: 20px;
+flex-shrink: 0;
+overflow: hidden;
 }
 .radio {
-  overflow: hidden;
+overflow: hidden;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
 }
 .flightOptions,
 .formTitleGroup,
@@ -55,44 +61,52 @@
   justify-content: flex-start;
 }
 .flightOptions {
-  gap: 20px;
-  font-size: var(--font-size-base);
-  color: var(--color-darkslategray-100);
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+gap: var(--gap-lg);
+font-size: var(--font-size-xs);
+color: var(--color-darkslategray-200);
 }
 .formTitleGroup {
-  align-self: stretch;
-  overflow: hidden;
-  padding: var(--padding-xs);
-  gap: var(--gap-md);
+align-self: stretch;
+position: relative;
+line-height: 67px;
 }
 .departureAutocomplete {
-  align-self: stretch;
-  flex: 1;
+align-self: stretch;
+position: relative;
+line-height: 67px;
 }
 .inputsRow {
-  flex: 1;
-  display: flex;
-  flex-direction: row;
-  padding: var(--padding-xs);
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 10px;
+flex: 1;
+position: relative;
+letter-spacing: 0.04em;
+text-transform: uppercase;
 }
 .searchFlights {
-  position: relative;
-  font-size: 15px;
-  letter-spacing: 0.46px;
-  line-height: 26px;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-family: var(--font-roboto);
-  color: var(--color-white);
-  text-align: center;
+position: relative;
+width: 20px;
+height: 20px;
+flex-shrink: 0;
+overflow: hidden;
 }
 .buttonGroup,
 .searchButton {
-  display: flex;
-  justify-content: center;
+cursor: pointer;
+border: none;
+padding: 0px var(--padding-sm);
+background-color: var(--color-orange);
+border-radius: var(--br-sm);
+width: 164px;
+height: 56px;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+box-sizing: border-box;
+align-items: center;
+justify-content: center;
 }
 .searchButton {
   cursor: pointer;
@@ -108,31 +122,36 @@
   align-items: center;
 }
 .searchButton:hover {
-  background-color: #c87d0d;
+background-color: var(--color-darkgoldenrod);
 }
 .buttonGroup {
-  flex-direction: column;
-  padding: var(--padding-xs);
-  align-items: flex-start;
+display: flex;
+flex-direction: column;
+padding: var(--padding-2xs);
+align-items: flex-start;
+justify-content: center;
 }
-.formInputsRow,
-.searchForm {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
+.formInputsRow {
+align-self: stretch;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+justify-content: flex-start;
 }
 .searchForm {
-  border-radius: 10px;
-  background-color: var(--color-white);
-  flex-direction: column;
-  padding: 20px;
-  gap: 4px;
-  text-align: left;
-  font-size: 20px;
-  color: #303030;
-  font-family: var(--font-roboto);
+align-self: stretch;
+border-radius: var(--br-md);
+background-color: var(--color-white);
+display: flex;
+flex-direction: column;
+padding: var(--padding-md);
+align-items: flex-start;
+justify-content: flex-start;
+gap: var(--gap-xs);
+text-align: left;
+font-size: var(--font-size-sm);
+color: var(--color-darkslategray-100);
+font-family: var(--font-roboto);
 }
 .searchContainer,
 .test1 {
@@ -142,79 +161,85 @@
   align-items: center;
 }
 .searchContainer {
-  align-self: stretch;
-  height: 640px;
-  flex-shrink: 0;
-  padding: 0 140px;
-  box-sizing: border-box;
-  justify-content: center;
-  gap: 43px;
-  background-image: url(/public/search-container@3x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
+align-self: stretch;
+position: relative;
+line-height: 67px;
 }
 .test1 {
-  position: relative;
-  justify-content: flex-start;
-  text-align: center;
-  font-size: 61px;
-  color: var(--color-white);
-  font-family: var(--font-baloo-bhai);
+position: relative;
+width: 20px;
+height: 20px;
+flex-shrink: 0;
+overflow: hidden;
 }
 @media screen and (max-width: 960px) {
-  .inputsRow {
-    width: 100%;
-    flex: unset;
-    align-self: stretch;
-  }
-  .buttonGroup {
-    width: 100%;
-    text-align: left;
-  }
-  .formInputsRow,
-  .searchForm {
-    flex-direction: column;
-  }
-  .searchContainer {
-    padding-left: var(--padding-lg);
-    padding-right: var(--padding-lg);
-    box-sizing: border-box;
-  }
+.inputsRow {
+width: 100%;
+flex: unset;
+align-self: stretch;
+}
+.buttonGroup {
+width: 100%;
+text-align: left;
+}
+
+.formInputsRow {
+flex-direction: column;
+}
+
+.searchForm {
+flex-direction: column;
+}
+
+.searchContainer {
+padding-left: var(--padding-lg);
+padding-right: var(--padding-lg);
+box-sizing: border-box;
+}
+
 }
 @media screen and (max-width: 420px) {
-  .heroTagline {
-    font-size: 42px;
-    line-height: 48px;
-  }
-  .searchFormLabel {
-    width: 100%;
-    padding-bottom: var(--padding-md);
-    margin-bottom: 6px;
-    flex: unset;
-    align-self: stretch;
-  }
-  .flightOptions {
-    width: 100%;
-  }
-  .formTitleGroup {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .departureAutocomplete {
-    flex: unset;
-    align-self: stretch;
-  }
-  .inputsRow {
-    flex-direction: column;
-  }
-  .searchButton {
-    width: 100%;
-  }
-  .searchForm {
-    margin-top: 20px;
-  }
-  .searchContainer {
-    height: 800px;
-  }
+.heroTagline {
+font-size: var(--font-size-lg);
+line-height: 48px;
+}
+
+.searchFormLabel {
+width: 100%;
+padding-bottom: var(--padding-sm);
+margin-bottom: 6px;
+flex: unset;
+align-self: stretch;
+}
+
+.flightOptions {
+width: 100%;
+}
+
+.formTitleGroup {
+flex-direction: column;
+align-items: flex-start;
+}
+
+.departureAutocomplete {
+flex: unset;
+align-self: stretch;
+}
+
+.inputsRow {
+flex-direction: column;
+}
+
+.searchButton {
+width: 100%;
+}
+
+.searchForm {
+margin-top: 20px;
+}
+
+.searchContainer {
+height: 800px;
+}
+
 }

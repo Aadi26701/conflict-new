@@ -2,9 +2,9 @@ import { FunctionComponent, useState, useCallback } from "react";
 import { Autocomplete, TextField, Icon } from "@mui/material";
 import { LocalizationProvider, DatePicker } from "@mui/x-date-pickers";
 import { AdapterDateFns } from "@mui/x-date-pickers/AdapterDateFns";
-import styles from "./Test1.module.css";
+import styles from "./Test2.module.css";
 
-const Test1: FunctionComponent = () => {
+const Test2: FunctionComponent = () => {
   const [travelDateTimePickerValue, setTravelDateTimePickerValue] = useState<
     string | null
   >(null);
@@ -15,15 +15,14 @@ const Test1: FunctionComponent = () => {
 
   return (
     <LocalizationProvider dateAdapter={AdapterDateFns}>
-      <div className={styles.test1}>
+      <div className={styles.test2}>
         <div className={styles.searchContainer}>
           <div className={styles.title}>
             <div
               className={styles.heroTagline}
-            >{`Let’s explore & travel the local locofy world`}</div>
+            >{`Let’s explore & travel the locofy world`}</div>
             <div className={styles.heroSubtext}>
-              Find the best local locofy destinations and the most popular
-              stays!
+              Find the best locofy destinations and the most popular stays!
             </div>
           </div>
           <div className={styles.searchForm}>
@@ -35,7 +34,7 @@ const Test1: FunctionComponent = () => {
                     <img
                       className={styles.radiobuttonuncheckedIcon}
                       alt=""
-                      src="/radiobuttonunchecked.svg"
+                      src="/radiobuttonunchecked1.svg"
                     />
                   </div>
                   <div className={styles.label}>Return</div>
@@ -45,7 +44,7 @@ const Test1: FunctionComponent = () => {
                     <img
                       className={styles.radiobuttonuncheckedIcon}
                       alt=""
-                      src="/radiobuttonchecked.svg"
+                      src="/radiobuttonchecked1.svg"
                     />
                   </div>
                   <div className={styles.label}>One-way</div>
@@ -139,5 +138,4 @@ const Test1: FunctionComponent = () => {
   );
 };
 
-export default Test1;
-
+export default Test2;
