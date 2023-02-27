@@ -21,8 +21,9 @@ const Homepage: FunctionComponent = () => {
             <div
               className={styles.heroTagline}
             >{`Let’s locofy & travel the github world`}</div>
+            >{`Let’s explore & travel the locofied world`}</div>
             <div className={styles.heroSubtext}>
-              Find the best github destinations and the most locofy stays!
+              Find the best locofied destinations and the most popular stays!
             </div>
           </div>
           <div className={styles.searchForm}>
@@ -37,7 +38,7 @@ const Homepage: FunctionComponent = () => {
                       src="/radiobuttonunchecked.svg"
                     />
                   </div>
-                  <div className={styles.label}>comeback</div>
+
                 </div>
                 <div className={styles.radio}>
                   <div className={styles.padding}>
@@ -47,7 +48,7 @@ const Homepage: FunctionComponent = () => {
                       src="/radiobuttonchecked.svg"
                     />
                   </div>
-                  <div className={styles.label}></div>
+                  <div className={styles.label}>locofy</div>
                 </div>
               </div>
             </div>
@@ -139,3 +140,4 @@ const Homepage: FunctionComponent = () => {
 };
 
 export default Homepage;
+
