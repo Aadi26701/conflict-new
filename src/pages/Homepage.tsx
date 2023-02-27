@@ -27,7 +27,7 @@ const Homepage: FunctionComponent = () => {
           </div>
           <div className={styles.searchForm}>
             <div className={styles.formTitleGroup}>
-              <b className={styles.searchFormLabel}>Search flights</b>
+              <b className={styles.searchFormLabel}>Search github</b>
               <div className={styles.flightOptions}>
                 <div className={styles.radio}>
                   <div className={styles.padding}>
@@ -47,7 +47,7 @@ const Homepage: FunctionComponent = () => {
                       src="/radiobuttonchecked.svg"
                     />
                   </div>
-                  <div className={styles.label}>One-way</div>
+                  <div className={styles.label}></div>
                 </div>
               </div>
             </div>
@@ -98,7 +98,7 @@ const Homepage: FunctionComponent = () => {
                       helperText=""
                     />
                   )}
-                  defaultValue="Mumbai (MB)"
+                  defaultValue="GITHUB (GB)"
                   size="medium"
                 />
                 <div className={styles.departureAutocomplete}>
@@ -127,7 +127,7 @@ const Homepage: FunctionComponent = () => {
                   className={styles.searchButton}
                   onClick={onSearchButtonClick}
                 >
-                  <div className={styles.searchFlights}>SEARCH trains</div>
+                  <div className={styles.searchFlights}>SEARCH GITHUB flights</div>
                 </button>
               </div>
             </div>
