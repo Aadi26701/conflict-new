@@ -22,7 +22,7 @@ const Homepage: FunctionComponent = () => {
               className={styles.heroTagline}
             >{`Let’s explore & travel the github world`}</div>
             <div className={styles.heroSubtext}>
-              Find the best github destinations and the most popular stays!
+              Find the best locofy 2 destinations and the most popular stays!
             </div>
           </div>
           <div className={styles.searchForm}>
@@ -139,3 +139,4 @@ const Homepage: FunctionComponent = () => {
 };
 
 export default Homepage;
+
