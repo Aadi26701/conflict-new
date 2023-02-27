@@ -1,3 +1,4 @@
+
 import {
   Routes,
   Route,
@@ -6,6 +7,7 @@ import {
 } from "react-router-dom";
 import Test2 from "./pages/Test2";
 import Homepage from "./pages/Homepage";
+import Test2 from "./pages/Test2";
 import { useEffect } from "react";
 
 function App() {
@@ -28,7 +30,7 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/homepage":
+      case "/test-2":
         title = "";
         metaDescription = "";
         break;
@@ -50,9 +52,9 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<Test2 />} />
+      <Route path="/" element={<Homepage />} />
 
-      <Route path="/homepage" element={<Homepage />} />
+      <Route path="/test-2" element={<Test2 />} />
     </Routes>
   );
 }

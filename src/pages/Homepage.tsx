@@ -20,10 +20,9 @@ const Homepage: FunctionComponent = () => {
           <div className={styles.title}>
             <div
               className={styles.heroTagline}
-            >{`Let’s explore & travel the github world`}</div>
+            >{`Let’s explore & travel the locofy world`}</div>
             <div className={styles.heroSubtext}>
-              Find the best github destinations and the most popular
-              stays!
+Find the best locofy destinantions and the most popular stays!
             </div>
           </div>
           <div className={styles.searchForm}>
@@ -35,7 +34,7 @@ const Homepage: FunctionComponent = () => {
                     <img
                       className={styles.radiobuttonuncheckedIcon}
                       alt=""
-                      src="/radiobuttonunchecked1.svg"
+                      src="/radiobuttonunchecked.svg"
                     />
                   </div>
                   <div className={styles.label}>Return</div>
@@ -45,7 +44,7 @@ const Homepage: FunctionComponent = () => {
                     <img
                       className={styles.radiobuttonuncheckedIcon}
                       alt=""
-                      src="/radiobuttonchecked1.svg"
+                      src="/radiobuttonchecked.svg"
                     />
                   </div>
                   <div className={styles.label}>One-way</div>
@@ -140,3 +139,4 @@ const Homepage: FunctionComponent = () => {
 };
 
 export default Homepage;
+
