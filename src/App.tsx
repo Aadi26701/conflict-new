@@ -1,12 +1,11 @@
-
 import {
   Routes,
   Route,
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import Test1 from "./pages/Test1";
 import Test2 from "./pages/Test2";
+import Homepage from "./pages/Homepage";
 import { useEffect } from "react";
 
 function App() {
@@ -29,7 +28,7 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/test-2":
+      case "/homepage":
         title = "";
         metaDescription = "";
         break;
@@ -51,9 +50,9 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<Test1 />} />
+      <Route path="/" element={<Test2 />} />
 
-      <Route path="/test-2" element={<Test2 />} />
+      <Route path="/homepage" element={<Homepage />} />
     </Routes>
   );
 }

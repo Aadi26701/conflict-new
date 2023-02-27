@@ -1,57 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai:wght@400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
-
-  
-  
-  body {
-    margin: 0;
-line-height: normal;
-  }
+body {
+  margin: 0;
+  line-height: normal;
+}
 :root {
   /* fonts */
   --font-roboto: Roboto;
   --font-baloo-bhai: "Baloo Bhai";
 
-/* fonts */
---font-roboto: Roboto;
---font-baloo-bhai: 'Baloo Bhai';
+  /* font sizes */
+  --font-size-2xs: 15px;
+  --font-size-xs: 16px;
+  --font-size-sm: 20px;
+  --font-size-base: 24px;
+  --font-size-lg: 42px;
+  --font-size-xl: 61px;
 
-/* font sizes */
---font-size-2xs: 15px;
---font-size-xs: 16px;
---font-size-sm: 20px;
---font-size-base: 24px;
---font-size-lg: 42px;
---font-size-xl: 61px;
+  /* Colors */
+  --color-white: #fff;
+  --color-orange: #f99a0e;
+  --color-darkgoldenrod: #c87d0d;
+  --color-darkslategray-100: #303030;
+  --color-darkslategray-200: rgba(48, 48, 48, 0.87);
 
-/* Colors */
---color-white: #fff;
---color-orange: #f99a0e;
---color-darkgoldenrod: #c87d0d;
---color-darkslategray-100: #303030;
---color-darkslategray-200: rgba(48, 48, 48, 0.87);
+  /* Gaps */
+  --gap-xs: 4px;
+  --gap-sm: 5px;
+  --gap-md: 10px;
+  --gap-lg: 20px;
+  --gap-xl: 43px;
 
-/* Gaps */
---gap-xs: 4px;
---gap-sm: 5px;
---gap-md: 10px;
---gap-lg: 20px;
---gap-xl: 43px;
+  /* Paddings */
+  --padding-2xs: 5px;
+  --padding-xs: 9px;
+  --padding-sm: 10px;
+  --padding-md: 20px;
+  --padding-lg: 30px;
+  --padding-xl: 140px;
 
-
-/* Paddings */
---padding-2xs: 5px;
---padding-xs: 9px;
---padding-sm: 10px;
---padding-md: 20px;
---padding-lg: 30px;
---padding-xl: 140px;
-
-/* border radiuses */
---br-sm: 4px;
---br-md: 10px;
---br-lg: 19px;
-
+  /* border radiuses */
+  --br-sm: 4px;
+  --br-md: 10px;
+  --br-lg: 19px;
 }
