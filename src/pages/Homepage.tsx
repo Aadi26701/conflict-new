@@ -20,9 +20,9 @@ const Homepage: FunctionComponent = () => {
           <div className={styles.title}>
             <div
               className={styles.heroTagline}
-            >{`Let’s explore & travel the locofy 2 world`}</div>
+            >{`Let’s locofy & travel the locofied world`}</div>
             <div className={styles.heroSubtext}>
-              Find the best locofy 2 destinations and the most popular stays!
+              Find the best locofied destinations and the most locofy stays!
             </div>
           </div>
           <div className={styles.searchForm}>
@@ -37,7 +37,7 @@ const Homepage: FunctionComponent = () => {
                       src="/radiobuttonunchecked.svg"
                     />
                   </div>
-                  <div className={styles.label}>Return</div>
+                  <div className={styles.label}>comeback</div>
                 </div>
                 <div className={styles.radio}>
                   <div className={styles.padding}>
@@ -73,7 +73,7 @@ const Homepage: FunctionComponent = () => {
                       helperText=""
                     />
                   )}
-                  defaultValue="Singapore -  Changi (SIN)"
+                  defaultValue="Delhi -  Changi (DEL)"
                   size="medium"
                 />
                 <Autocomplete
@@ -98,7 +98,7 @@ const Homepage: FunctionComponent = () => {
                       helperText=""
                     />
                   )}
-                  defaultValue="Los Angeles (LA)"
+                  defaultValue="Mumbai (MB)"
                   size="medium"
                 />
                 <div className={styles.departureAutocomplete}>
@@ -127,7 +127,7 @@ const Homepage: FunctionComponent = () => {
                   className={styles.searchButton}
                   onClick={onSearchButtonClick}
                 >
-                  <div className={styles.searchFlights}>SEARCH FLIGHTS</div>
+                  <div className={styles.searchFlights}>SEARCH trains</div>
                 </button>
               </div>
             </div>
