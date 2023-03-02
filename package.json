@@ -23,6 +23,10 @@
 			"typescript": "^4.5.4",
 			"react-router-dom": "^6.2.1"
     },
+{
+    "name": "e_2_e_html",
+    "version": "1.0.0",
+    "description": "",
     "scripts": {
       "start": "react-scripts start",
       "build": "react-scripts build",
@@ -46,3 +50,4 @@
     }
   }
   
+
